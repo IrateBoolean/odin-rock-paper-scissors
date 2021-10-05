@@ -2,15 +2,101 @@ body {
 margin: 0;
 padding: 0;
 }
+
+button {
+  font-size: 2em;
+  font-weight: 800;
+  background-color: #333;
+  color: #CCC;
+}
 .container {
   background-color: black; 
   box-sizing: border-box;
   margin: 0;
-  padding: 100px;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
+.hero {
+  background-color: #BBB;
+  flex: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.buttons {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  align-items: center;
+  flex: auto;
+}
+
+.words {
+  background-color: #BBB;
+  flex: auto;
+}
+
+.reset {
+  background-color: #333;
+  flex: auto;
+}
+
+footer {
+  background-color: #BBB;
+  height: 5vh;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+#r, #p, #s {
+  transform: rotate(-25deg);
+  display: inline-block;
+  margin-left: -7vw;
+}
+
+#r {
+  color: #111;
+  font-size: 4em;
+}
+#p {
+  color: #444;
+  font-size: 3em;
+}
+#s {
+  color: #666;
+  font-size: 2em;
+}
+
+.choice {
+  height: 5vh;
+  width: 5vw;
+  border-radius: 100px;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  width: 25vw;
+  height: 5vh;
+  border-radius: 100px;
+}
 
